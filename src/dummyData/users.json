@@ -1,0 +1,18 @@
+{"users": [
+    {
+        "id": 1,
+        "name": "Athus Oliveira",
+        "email": "atsaudio@gmail.com"        
+    },
+    {
+        "id": 2,
+        "name": "Luis Silveira ",
+        "email": "luis@gmail.com"        
+    },
+    {
+        "id": 3,
+        "name": "Arnaldo Soares",
+        "email": "arnosoares@gmail.com"        
+    }
+]
+}
