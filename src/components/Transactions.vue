@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Reconhecer Tokens E2C</h1>
+    <h1>Reconhecer Tokens E2C!!!</h1>
     <div id="create-e2c">
       <div>
         <label>Quem reconhece</label>
