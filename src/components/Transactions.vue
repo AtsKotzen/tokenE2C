@@ -28,7 +28,7 @@
       </div>
       <br />
       <div>
-        <button @click="emitirTokens()">Emitir tokens E2C</button>
+        <button @click="emitirTokens()">Reconhecer tokens E2C</button>
       </div>
     </div>
   </div>
