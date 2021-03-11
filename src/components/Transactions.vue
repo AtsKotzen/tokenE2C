@@ -3,28 +3,50 @@
     <h1>Reconhecer Tokens E2C!!!</h1>
     <div id="create-e2c">
       <div>
-        <label>Quem reconhece</label>
-        <input type="text" placeholder="Nome" v-model="quemEmite" />
+        <label>Quem reconhece </label>
+        <input
+          type="text"
+          placeholder="Nome de quem emite"
+          v-model="quemEmite"
+        />
       </div>
       <br />
       <div>
-        <label>Quem recebe</label>
-        <input type="text" placeholder="Nome" v-model="quemRecebe" />
+        <label>Quem recebe </label>
+        <input
+          type="text"
+          placeholder="Nome de quem recebe"
+          v-model="quemRecebe"
+        />
       </div>
       <br />
       <div>
-        <label>Quantidade</label>
-        <input type="number" v-model="amount" />
+        <label>Quantidade </label>
+        <input type="number" v-model="amount" placeholder="Quantidade" />
       </div>
       <br />
       <div>
         <label>Descrição</label>
-        <textarea v-model="descricao"></textarea>
+        <br />
+        <textarea
+          v-model="descricao"
+          placeholder="Descreva o que o motivou o reconhecimento..."
+          rows="7"
+          cols="40"
+          maxlength="500"
+        ></textarea>
       </div>
       <br />
       <div>
         <label>A pessoa que recebe pode registrar o desejo de acessar</label>
-        <textarea v-model="desejoAcessar"></textarea>
+        <br />
+        <textarea
+          v-model="desejoAcessar"
+          placeholder="Aproveite para registrar um desejo, algo que o recebedor deseja acessar..."
+          rows="6"
+          cols="40"
+          maxlength="500"
+        ></textarea>
       </div>
       <br />
       <div>
