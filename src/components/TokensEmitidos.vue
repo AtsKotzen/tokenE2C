@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>Tokens Emitidos</h1>
-    <div>
+    <div v-for="(item, index) in tokenList" :key="index">
       <ul>
-        <li v-for="(item, index) in tokenList" :key="index">
+        <li>
           <!-- <p>{{ item.dateTime }}</p> -->
           <p>
             {{ item.fromUser }} reconheceu {{ item.amount }} tokens E2C para

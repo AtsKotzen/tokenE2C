@@ -50,7 +50,7 @@
       </div>
       <br />
       <div>
-        <button @click="emitirTokens()">Reconhecer tokens E2C</button>
+        <button @click="reconhecerTokens()">Reconhecer tokens E2C</button>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ export default {
     };
   },
   methods: {
-    emitirTokens() {
+    reconhecerTokens() {
       let payload = {
         dateTime: new Date(),
         fromUser: this.quemEmite,
