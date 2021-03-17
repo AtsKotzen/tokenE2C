@@ -6,12 +6,13 @@
         <li>
           <!-- <p>{{ item.dateTime }}</p> -->
           <p>
-            {{ item.fromUser }} reconheceu {{ item.amount }} tokens E2C para
-            {{ item.toUser }} {{ item.description }}
+            <strong>{{ item.fromUser }}</strong> reconheceu
+            {{ item.amount }} tokens E2C para
+            <strong>{{ item.toUser }}</strong> {{ item.description }}
           </p>
           <p>
-            <strong>Desejo de acessar de {{ item.toUser }}:</strong>
-            {{ item.accessWish }}
+            Desejo de acessar de {{ item.toUser }}:
+            <strong>{{ item.accessWish }}</strong>
           </p>
         </li>
       </ul>
